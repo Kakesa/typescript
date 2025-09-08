@@ -1,6 +1,12 @@
-let nom: string = "John";
+let nom: string = 'papillon';
 let age: number = 30;
 let isStudent: boolean = false;
+
+
+let hobbies: string[] = ['reading', 'gaming', 'coding'];
+
+hobbies.push('travelling');
+
 
 function isMature(name: string, age: number): void {
     if (age >= 18) {
@@ -10,4 +16,5 @@ function isMature(name: string, age: number): void {
     }
 }
 
-isMature('Espoir', 30);
+isMature('papillon', 15);
+console.log(hobbies);
