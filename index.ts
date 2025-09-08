@@ -2,6 +2,8 @@ let nom: string = 'papillon';
 let age: number = 30;
 let isStudent: boolean = false;
 
+let students: string[] = ['Aaron', 'Dieudonné', 'Charlie'];
+students.push('David');
 
 let hobbies: string[] = ['reading', 'gaming', 'coding'];
 
@@ -17,4 +19,6 @@ function isMature(name: string, age: number): void {
 }
 
 isMature('papillon', 15);
+
 console.log(hobbies);
+console.log(students);
